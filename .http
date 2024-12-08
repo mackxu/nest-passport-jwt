@@ -1,0 +1,12 @@
+POST http://localhost:3001/auth/login
+content-type: application/json
+
+{
+    "userName": "admin2",
+    "password": "admin222"
+}
+
+###
+POST http://localhost:3001/profile
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImFkbWluMiIsInVpZCI6MiwiaWF0IjoxNzMzNjQxNzUyLCJleHAiOjE3MzM2NDE4MTJ9.2ahswkQ7yD6Jf8fVowvxnYe1hc2bkSWVZSURFyqcv4g
